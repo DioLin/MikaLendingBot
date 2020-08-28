@@ -11,6 +11,7 @@ Lending bot SOP
               files = /etc/supervisor.d/*.conf
 6. sudo mkdir /etc/supervisor.d
 7. sudo vi test.conf ,or ref test.conf_diotemp
+
 -----------------------------------------------
 (option) auto push message by Telegram
 8.new bot by "BotFather" (https://markteaching.com/create-telegram-bot/),get telegram_bot_id and telegram_chat_ids
@@ -20,3 +21,7 @@ telegram = True
 telegram_bot_id = 13xxxxxx36:AAxxxxa-rbDvxxxdkdv_TT_LYNxxxxxxfE
 telegram_chat_ids = 11xxxxx79
 ''''''
+-----------------------------------------------
+9. sudo supervisord
+
+------------The end,have fun :)-------------------------
