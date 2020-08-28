@@ -1,0 +1,9 @@
+[program:Lending]
+command=/usr/bin/env python2.7 /home/your_user_name/MikaLendingBot/lendingbot.py -cfg default.cfg
+redirect_stderr=true
+stdout_logfile=/home/your_user_name/lendingbot_errorlog.log
+stdout_logfile_maxbytes=50MB
+stdout_logfile_backups=3
+autorestart=true
+startsecs=3
+startretries=3
