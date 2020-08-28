@@ -1,6 +1,6 @@
 Lending bot SOP
 
-1. regsister GCP "f1" "linux debian" free project.
+1. regsister GCP "f1" "linux debian" free project(us west1b).
 2. install pip
 3. git clone this
 4. edit default.config ,or ref default.config_diotemp
