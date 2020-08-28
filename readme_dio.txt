@@ -6,7 +6,8 @@ Lending bot SOP
 4. edit default.config ,or ref default.config_diotemp
 5. use "supervisor" to keep program alive (https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/362881/)
  5.1 echo_supervisord_conf | sudo tee /etc/supervisord.conf
- 5.2 un-mark [include]
+ 5.2 sudo vim /etc/supervisord.conf 
+              un-mark [include]
               files = /etc/supervisor.d/*.conf
 6. sudo mkdir /etc/supervisor.d
 7. sudo vi test.conf ,or ref test.conf_diotemp
