@@ -2,6 +2,8 @@ Lending bot SOP
 
 1. regsister GCP "f1" "linux debian" free project(us west1b)(https://cloud.google.com/free?hl=zh-tw)
 2. install pip (python2)
+ 2.1 sudo apt update
+ 2.2 sudo apt install python-pip
 3. git clone this
 4. edit default.config ,or ref default.config_diotemp
 5. use "supervisor" to keep program alive (https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/362881/)
