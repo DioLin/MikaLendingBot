@@ -81,16 +81,16 @@ hideCoins = True
 
 #Raw maximum amount to lend if under maxtolendrate.
 #If set to 0 or commented: the bot will check for maxpercenttolend.(0+)
-#maxtolend = 0
+#maxtolend = 500
 
 #Maximum percent to lend if under maxtolendrate.
 #If set to 0 or commented: the bot will lend 100% of your balance regardless of rate. (0-100)
-#maxpercenttolend = 0
+maxpercenttolend = 30
 
 #Max to lend conditional rate.
 #If set to more than 0: the maxtolend or maxpercenttolend will be used when the rate is less than or equal to the maxtolendrate.
 #If set to 0 or commented: the bot will use the maxtolend or maxpercenttolend all the time. (0.0031-5)
-#maxtolendrate = 0
+maxtolendrate = 0
 
 #FRR as min, tells the bot whether or not to use the flash return rate (https://support.bitfinex.com/hc/en-us/articles/213919009-What-is-the-Flash-Return-Rate-)
 #instead of mindailyrate. This only works on bitfinex.
