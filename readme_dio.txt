@@ -5,6 +5,7 @@ Lending bot SOP
  2.1 sudo apt update
  2.2 sudo apt install python-pip
 3. git clone https://github.com/DioLin/MikaLendingBot.git
+ 3.1 pip install -r requirements.txt
 4. edit default.config ,or ref default.config_diotemp (detail in https://poloniexlendingbot.readthedocs.io/en/latest/configuration.html#)
  4.1 rename default.config_diotemp to default.config.
  4.2 vim default.config,instead of your "apikey" and "secret" copied form bitfinex APIKEY.
