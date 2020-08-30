@@ -27,6 +27,10 @@ telegram = True
 telegram_bot_id = 13xxxxxx36:AAxxxxa-rbDvxxxdkdv_TT_LYNxxxxxxfE
 telegram_chat_ids = 11xxxxx79
 ''''''
+
+ 8.1 id "telegram_chat_ids" can be gained from botchat history (enter https://api.telegram.org/bot{$token}/getUpdates in your browser).
+
+
 -----------------------------------------------
 9. sudo supervisord
 
