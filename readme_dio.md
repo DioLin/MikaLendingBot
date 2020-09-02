@@ -1,4 +1,4 @@
-# Lending bot SOP written by DioLin
+# Dio Lending bot SOP
 
 1. regsister GCP "f1" "linux debian" free project(us west1b). Also ref this GCP [website](https://cloud.google.com/free?hl=zh-tw)
 2. install pip (python2)
