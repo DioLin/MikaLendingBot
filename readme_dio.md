@@ -35,4 +35,4 @@ telegram_chat_ids = 11xxxxx79
 9. sudo supervisord
 
 ## The end,have fun :)
-- your lending log will be recorded in /www/botlog.json
+- find your lending log in /www/botlog.json
