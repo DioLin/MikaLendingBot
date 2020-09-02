@@ -1,4 +1,4 @@
-# Lending bot SOP author(DioLin)
+# Lending bot SOP written by DioLin
 
 1. regsister GCP "f1" "linux debian" free project(us west1b)(ref https://cloud.google.com/free?hl=zh-tw)
 2. install pip (python2)
