@@ -26,6 +26,8 @@
 
 Modify default.config
 <pre>
+default.config
+....
 telegram = True
 telegram_bot_id = 13xxxxxx36:AAxxxxa-rbDvxxxdkdv_TT_LYNxxxxxxfE
 telegram_chat_ids = 11xxxxx79
