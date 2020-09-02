@@ -1,4 +1,4 @@
-#Lending bot SOP
+# Lending bot SOP
 
 1. regsister GCP "f1" "linux debian" free project(us west1b)(ref https://cloud.google.com/free?hl=zh-tw)
 2. install pip (python2)
@@ -17,7 +17,7 @@
 6. sudo mkdir /etc/supervisor.d
 7. sudo vi test.conf ,or ref test.conf_diotemp
 
-##auto push message by Telegram(option)
+## auto push message by Telegram(option)
 
 8.new bot by "BotFather" (https://markteaching.com/create-telegram-bot/),get telegram_bot_id and telegram_chat_ids
 
@@ -31,8 +31,6 @@ telegram_chat_ids = 11xxxxx79
 
  8.1 id "telegram_chat_ids" can be gained from botchat history (enter https://api.telegram.org/bot{$token}/getUpdates in your browser).
 
-
------------------------------------------------
 9. sudo supervisord
 
 ------------The end,have fun :)-------------------------
