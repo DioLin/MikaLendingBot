@@ -15,12 +15,13 @@
               un-mark [include]
               <pre>
               files = /etc/supervisor.d/*.conf</pre>
-6. sudo mkdir /etc/supervisor.d
-7. sudo vi test.conf ,or ref test.conf_diotemp
+ - 5.3 sudo mkdir /etc/supervisor.d
+ - 5.4 sudo vi test.conf ,or ref test.conf_diotemp
+ - 5.5 sudo supervisord
 
 ## auto push message by Telegram(option)
 
-8.new bot by "BotFather" (https://markteaching.com/create-telegram-bot/),get telegram_bot_id and telegram_chat_ids
+6.new bot by "BotFather" (https://markteaching.com/create-telegram-bot/),get telegram_bot_id and telegram_chat_ids
 
 Modify default.config
 <pre>
@@ -28,11 +29,9 @@ telegram = True
 telegram_bot_id = 13xxxxxx36:AAxxxxa-rbDvxxxdkdv_TT_LYNxxxxxxfE
 telegram_chat_ids = 11xxxxx79
 </pre>
+ - 6.1 id "telegram_chat_ids" can be gained from botchat history (enter https://api.telegram.org/bot{$token}/getUpdates in your browser).
 
 
- - 8.1 id "telegram_chat_ids" can be gained from botchat history (enter https://api.telegram.org/bot{$token}/getUpdates in your browser).
-
-9. sudo supervisord
 
 ## The end,have fun :)
 - find your lending log in /www/botlog.json
