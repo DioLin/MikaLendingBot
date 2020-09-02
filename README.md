@@ -1,7 +1,6 @@
 # Mika Lending Bot <img src="https://upload.wikimedia.org/wikipedia/zh/thumb/d/d0/JaketheDog.png/220px-JaketheDog.png" width="50">
 
-Please refer to readme_dio.txt frist.
-https://github.com/DioLin/MikaLendingBot/blob/master/readme_dio.txt
+Please refer to [readme_dio.txt](https://github.com/DioLin/MikaLendingBot/blob/master/readme_dio.txt)frist.
 
 ## Devs are Out of Office - Community Pull Requests will be considered
 
