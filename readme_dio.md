@@ -33,5 +33,6 @@ telegram_chat_ids = 11xxxxx79
 
 
 
-## The end,have fun :) <img src="https://sls.weco.net/files/u2045/999.jpg">
-- find your lending log in /www/botlog.json
+## The end,have fun :). BTW you can find your lending log in /www/botlog.json.
+<img src="https://sls.weco.net/files/u2045/999.jpg">
+
