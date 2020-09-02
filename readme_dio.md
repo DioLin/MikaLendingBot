@@ -14,6 +14,7 @@
  - 5.2 sudo vim /etc/supervisord.conf 
               un-mark [include]
               <pre>
+              [include]
               files = /etc/supervisor.d/*.conf</pre>
  - 5.3 sudo mkdir /etc/supervisor.d
  - 5.4 sudo vi test.conf ,or ref [test.conf_diotemp](https://github.com/DioLin/MikaLendingBot/blob/master/test.conf_diotemp)
