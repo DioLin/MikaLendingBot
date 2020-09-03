@@ -22,7 +22,7 @@
 
 ## auto push message by Telegram(option)
 
-6.new bot by "BotFather" (https://markteaching.com/create-telegram-bot/),get telegram_bot_id and telegram_chat_ids
+6.new bot by [BotFather](https://markteaching.com/create-telegram-bot/) , get telegram_bot_id and telegram_chat_ids
 
 Modify default.config
 <pre>
