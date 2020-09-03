@@ -1,6 +1,6 @@
 # Dio lending bot SOP
 
-1. regsister GCP "f1" "linux debian" free project(us west1b). Also ref this GCP [website](https://cloud.google.com/free?hl=zh-tw)
+1. regsister GCP "f1" "linux debian" free project(us west1b). Also refer to this GCP [website](https://cloud.google.com/free?hl=zh-tw)
 2. install pip (python2)
  - 2.1 sudo apt update
  - 2.2 sudo apt install python-pip
@@ -17,7 +17,7 @@
               [include]
               files = /etc/supervisor.d/*.conf</pre>
  - 5.3 sudo mkdir /etc/supervisor.d
- - 5.4 sudo vi test.conf ,or ref [test.conf_diotemp](https://github.com/DioLin/MikaLendingBot/blob/master/test.conf_diotemp)
+ - 5.4 sudo vi test.conf ,or refer to [test.conf_diotemp](https://github.com/DioLin/MikaLendingBot/blob/master/test.conf_diotemp)
  - 5.5 sudo supervisord
 
 ## auto push message by Telegram(option)
